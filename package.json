@@ -1,0 +1,23 @@
+{
+  "name": "unit-tes-nodejs",
+  "version": "1.0.0",
+  "description": "unit test",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": false,
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "author": "ardi putra",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.9",
+    "babel-jest": "^29.6.2",
+    "jest": "^29.6.2"
+  }
+}
